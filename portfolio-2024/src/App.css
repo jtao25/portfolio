@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&display=swap");
+
+body {
+  width: 68.4375rem;
+  background-color: #1f1d1d;
+  margin-left: 2rem;
+}
+
+h1 {
+  color: #fff8f8;
+  font-family: "Karla";
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 2.7rem */
+}
+
+h3 {
+  color: #fff8f8;
+
+  font-family: IBM Plex Mono;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 1.2rem */
+}
+
+p {
+  color: #fff8f8c2;
+
+  font-family: IBM Plex Mono;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 1.2rem */
+}
+
+.nav-bar {
+  position: sticky;
+  top: 0;
+  display: inline-flex;
+  padding-top: 22.125rem;
+  z-index: 100;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+  flex: 0 0 15rem;
+  height: 50vh;
+}
+
+.nav-bar a {
+  color: #fff8f8;
+  text-decoration: none;
+  font-family: "Karla";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+/* Set up a flex container */
+.app-container {
+  display: flex;
+}
+
+.content {
+  margin-top: 13.5rem;
+  padding: 20px;
+}
